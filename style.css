@@ -95,3 +95,23 @@ main p {
 #boton-clic:active {
   transform: scale(0.95);
 }
+/* club */
+.club-container {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #ffe0fa;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 102, 204, 0.2);
+}
+
+.subtexto {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+  color: #444;
+}
+
+.nota {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #888;
+}
