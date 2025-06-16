@@ -17,8 +17,8 @@ function iniciarSimulador() {
     alert("😬 Sos menor de edad. ¡No pasas y te vas a ver pocoyo!");
     return;
   }
-}
-const ropa = prompt("¿Qué estás usando para salir?");
+
+  const ropa = prompt("¿Qué estás usando para salir?");
   const permitidas = ["camisa", "remera", "vestido", "pantalón", "jean", "tanga", "short"];
   let aprobado = false;
 
@@ -30,13 +30,18 @@ const ropa = prompt("¿Qué estás usando para salir?");
   }
 
   if (!aprobado) {
-    alert( "El patovica no te deja pasar con esa ropa... cambiate y proba de vuelta");
+    alert("El patovica no te deja pasar con esa ropa... cambiate y proba de vuelta");
     return;
-  } 
-    const entradaConfirmada = confirm("¿Pagás la entrada de $8500?");
+  }
+
+  const entradaConfirmada = confirm("¿Pagás la entrada de $8500?");
   if (!entradaConfirmada) {
     alert("💸 Raton... el patovica no te deja ser rata");
     return;
   }
-    alert(`🎉 ¡Bienvenido/a al boliche, {nombre}! Que empiece la fiesta 🪩`);
-  console.log(`${nombre} entró al boliche con ${edad} años usando ${ropa}.`); 
+
+  alert(`🎉 ¡Bienvenido/a al boliche, ${nombre}! Que empiece la fiesta 🪩`);
+  console.log(`${nombre} entró al boliche con ${edad} años usando ${ropa}.`);
+}
+
+  
