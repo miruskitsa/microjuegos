@@ -17,5 +17,4 @@ function iniciarSimulador() {
     alert("😬 Sos menor de edad. ¡No podés pasar!");
     return;
   }
-
-  
+}
