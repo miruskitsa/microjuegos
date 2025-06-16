@@ -40,7 +40,7 @@ function iniciarSimulador() {
     return;
   }
 
-  alert(`🎉 ¡Bienvenido/a al boliche, ${nombre}! Que empiece la fiesta 🪩`);
+  alert(`🎉 ¡Bienvenido/a al boliche, ${nombre}! Que empiece la fiesta! entraste usando ${ropa} 🪩`);
   console.log(`${nombre} entró al boliche con ${edad} años usando ${ropa}.`);
 }
 
