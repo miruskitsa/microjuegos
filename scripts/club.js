@@ -38,4 +38,5 @@ const ropa = prompt("¿Qué estás usando para salir?");
     alert("💸 Raton... el patovica no te deja ser rata");
     return;
   }
-  
+    alert(`🎉 ¡Bienvenido/a al boliche, {nombre}! Que empiece la fiesta 🪩`);
+  console.log(`${nombre} entró al boliche con ${edad} años usando ${ropa}.`); 
